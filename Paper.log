@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.17)  18 FEB 2020 00:03
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.17)  18 FEB 2020 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/ethan/Desktop/CIS/Research/Article/Paper
-(/Users/ethan/Desktop/CIS/Research/Article/Paper.tex
+**/Users/ethan/Desktop/CIS/Research/CIS_research_paper/Paper
+(/Users/ethan/Desktop/CIS/Research/CIS_research_paper/Paper.tex
 LaTeX2e <2019-10-01>
 (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -17,12 +17,14 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountB=\count81
 \@IEEEtrantmpcountC=\count82
 \@IEEEtrantmptoksA=\toks14
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 503.
+LaTeX Font Info:    No file TUptm.fd. on input line 503.
+
+LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 503.
+
 -- Using 210mm x 297mm (a4) paper.
--- Using PDF output.
+-- Using DVI output.
 \@IEEEnormalsizeunitybaselineskip=\dimen105
 -- This is a 10 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen106
@@ -67,6 +69,10 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
  (/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/ot1enc.def
 File: ot1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 105.
+ (/usr/local/texlive/2019basic/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )) (./Paper.aux)
 \openout1 = `Paper.aux'.
 
@@ -78,6 +84,8 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
@@ -88,23 +96,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 11.
-(./Paper.bbl) [1{/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(./Paper.bbl) [1
 
 
-] (./Paper.aux) ) 
+] (./Paper.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1212 strings out of 493610
- 20190 string characters out of 6159293
- 85840 words of memory out of 5000000
- 5430 multiletter control sequences out of 15000+600000
- 17657 words of font info for 32 fonts, out of 8000000 for 9000
+ 1222 strings out of 493992
+ 20481 string characters out of 6161316
+ 86645 words of memory out of 5000000
+ 5679 multiletter control sequences out of 15000+600000
+ 8960 words of font info for 28 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 24i,5n,21p,263b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (1 page, 44585 bytes).
-PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 24i,5n,21p,274b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on Paper.pdf (1 page).
