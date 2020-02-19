@@ -1,6 +1,0 @@
-\contentsline {section}{\numberline {I}Introduction}{1}% 
-\contentsline {section}{\numberline {II}Application Domain}{1}% 
-\contentsline {section}{\numberline {III}Use Case Scenarios}{1}% 
-\contentsline {section}{\numberline {IV}System Description}{1}% 
-\contentsline {section}{\numberline {V}Conclusion}{1}% 
-\contentsline {section}{References}{1}% 
