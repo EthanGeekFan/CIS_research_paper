@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.17)  19 FEB 2020 14:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.17)  19 FEB 2020 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -96,21 +96,66 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 11.
-(./Paper.bbl) [1
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+
+LaTeX Warning: Citation `gomez2012overview' on page 1 undefined on input line 27.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 57.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]\OT1/ptm/m/n/8 Energy
+ []
+
+
+Overfull \hbox (2.0751pt too wide) in paragraph at lines 59--59
+[]\OT1/ptm/m/n/8 Accuracy| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]\OT1/ptm/m/n/8 Blood
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 60--61
+[]\OT1/ptm/m/n/8 This De-scrip-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+\OT1/ptm/m/n/8 should be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+\OT1/ptm/m/n/8 dis-plays in
+ []
+
+No file Paper.bbl.
+[1
 
 
 ] (./Paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 1223 strings out of 493992
- 20496 string characters out of 6161316
- 86645 words of memory out of 5000000
- 5680 multiletter control sequences out of 15000+600000
- 9508 words of font info for 29 fonts, out of 8000000 for 9000
+ 1230 strings out of 493992
+ 20516 string characters out of 6161316
+ 87645 words of memory out of 5000000
+ 5683 multiletter control sequences out of 15000+600000
+ 11948 words of font info for 36 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 24i,5n,21p,274b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,9n,23p,274b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Paper.pdf (1 page).
