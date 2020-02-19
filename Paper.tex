@@ -1,11 +1,28 @@
 % !TEX program = xelatex
+
+
+% 导言部分 各种预设配置
 \documentclass[10pt,journal,final,a4paper,nofonttune]{IEEEtran}
 \usepackage[OT1]{fontenc}
 \usepackage{graphicx}
 
-\title{Demo for IEEE Journals}
-\author{Yifan Yang, Liye Jia, Kai Lin, Yujie Wang}
+\title{IoT~System~for~Mobile~Biometric and~Locating~Data~Collection}
 
+
+\author{Yifan~Yang,
+        Liye~Jia,
+        Kai~Lin,
+        and~Yujie~Wang
+\thanks{Y. Yang's footnote goes here}%
+\thanks{L. Jia's footnote goes here}%
+\thanks{K. Lin's footnote goes here}%
+\thanks{Y. Wang's footnote goes here}}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+% 文档主体
 \begin{document}
 \maketitle
 
@@ -22,7 +39,7 @@
 % \pagebreak
 
 \section{Introduction}
-This is going to be an essay that follows the IEEE standard.
+\IEEEPARstart{T}{his} is going to be an essay that follows the IEEE standard.
 I am now writing casually without thinking what I am doing. So, the 
 sentence may seem irreadable.
 \cite{gomez2012overview}
@@ -42,16 +59,20 @@ Paragraph two Paragraph two Paragraph two Paragraph two Paragraph two
 Paragraph two Paragraph two Paragraph two Paragraph two Paragraph two 
 
 
-\begin{figure*}[ht]
-    \centering
-    \begin{center}
-        \caption{System Architecture}
-    \end{center}
-    \includegraphics[width=16cm]{../Architecture.png}
-\end{figure*}
 
 
 \section{System Description}
+
+
+
+
+
+% Liye Jia
+
+This is Liye Jia's part! \\
+
+He decided to edit his part in Microsoft Word first 
+before we format his document in this final document. \\
 
 \subsection{Hardware}
 
@@ -74,34 +95,74 @@ content
 \end{table}
 
 
-\subsection{Network}
 
-\begin{figure}[!ht]
-    \centering
-    \begin{center}
-        \caption{System Architecture}
-    \end{center}
-    \includegraphics[width=8cm]{../Architecture.png}
-\end{figure}
 
-Paragraph two Paragraph two Paragraph two Paragraph two Paragraph two 
-Paragraph two Paragraph two Paragraph two Paragraph two Paragraph two 
-Paragraph two Paragraph two Paragraph two Paragraph two Paragraph two 
-Paragraph two Paragraph two Paragraph two Paragraph two Paragraph two 
-Paragraph two Paragraph two Paragraph two Paragraph two Paragraph two 
 
+% Yifan Yang
+\subsection{Networking}
+
+% Fig
+% IEEE Sample Figure Format:
+% \begin{figure}[!t]
+%     \centering
+%     \includegraphics[width=2.5in]{figs/Architecture.png} % 可以是相对路径或者绝对路径，但是由于我们的项目是共享型的，建议使用相对路径，相对本文件
+%     \caption{Architecture of the System} % \caption{...} 一定要写在\includegraphics{...}后面，\label{...}写在\caption{...}后面
+%     \label{fig_sim}
+% \end{figure}
+
+There are multiple options for creating an IoT network: Wi-Fi, Bluetooth, and ZigBee. 
+Each of them has its own characteristics. However, in our system, one specific networking 
+technology should be chosen to connect the sensors on people's body and the smart device that has 
+internet connection via either Wi-Fi or Cellular. Our candidates are:
+\begin{itemize}
+    
+    \item Wi-Fi
+    \item Bluetooth Classic
+    \item ZigBee
+    \item Bluetooth Low Energy(BLE)
+
+\end{itemize}
+
+
+\subsubsection{Wi-Fi}
+
+\subsubsection{Bluetooth Classic}
+
+\subsubsection{ZigBee}
+
+\subsubsection{Bluetooth Low Energy}
+
+\subsubsection*{System Requirements Analysis}
+
+
+
+
+
+% Yujie Wang
 \subsection{Internet Data Flow}
 
 
-udbcsiuhcbaiuejwndfciujwds
+Your section goes here, Wang.
 
 
+
+
+
+
+% Kai Lin
 \subsection{Application Layer}
 
+Kai, this is your section, right? \\
 
 \subsubsection{Cloud Computing and Database}
 
+
+
 \subsubsection{Other Concerns}
+
+
+
+
 
 
 \section{Use Case Scenarios}
